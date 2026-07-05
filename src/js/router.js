@@ -1,4 +1,4 @@
-import { Home } from "./pages/home.js";
+import { Home } from "../pages/home.js";
 
 export function router() {
   const path = window.location.pathname;
