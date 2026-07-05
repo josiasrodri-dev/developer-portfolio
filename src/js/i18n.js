@@ -12,6 +12,9 @@ export function setLanguage(lang){
     currentLanguage = lang
 }
 
-export function t(key){
-    return languages[currentLanguage][key] ?? key
+export function t(path){
+    return path.split(".").reduce(
+        (obj, key) => obj?.[key],
+        languages[currentLanguage]
+    );
 }

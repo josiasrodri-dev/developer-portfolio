@@ -1,9 +1,9 @@
 import MainLayout from "../layouts/mainLayout.js";
 import {t} from "../js/i18n.js"
 
-export function Home() {
+export function Projects() {
   return MainLayout({
     content: `
-      <h1>${t("home.title")}</h1>
+      <h1>${t("project.title")}</h1>
   `});
 }
