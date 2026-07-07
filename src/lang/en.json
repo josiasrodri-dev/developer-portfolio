@@ -3,6 +3,12 @@
         "name": "EN",
         "icon": "<i class='icon usa-icon'></i>"
     },
+    "pages":{
+        "home": "Home",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
     "home": {
         "title": "Home",
         "desc": "I build real-utility applicatios with backend structure and clean interface",

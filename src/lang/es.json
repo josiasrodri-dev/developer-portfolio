@@ -3,6 +3,12 @@
         "name": "ES",
         "icon": "<i class='icon mex-icon'></i>"
     },
+    "pages":{
+        "home": "Home",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
     "home": {
         "title": "Home",
         "desc": "Contruyo aplicaciones útiles para el día a día con lógica backend solida e intefaces limpios.",

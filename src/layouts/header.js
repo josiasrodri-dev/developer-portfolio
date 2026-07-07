@@ -5,10 +5,10 @@ export default function Header(){
         <header class="split">
             <button class="mobile" id="sidebar_btn"> <i class="fa-solid fa-bars"></i> </button>
             <div class="navbar -vnav">
-                <a href="/" class="navbar__links -vbuttons">Home</a>
-                <a href="/about" class="navbar__links -vbuttons">Skills</a>
-                <a href="/projects" class="navbar__links -vbuttons">Projects</a>
-                <a href="/contact" class="navbar__links -vbuttons">Contact</a>
+                <a href="/" class="navbar__links -vbuttons">${t("pages.home")}</a>
+                <a href="/about" class="navbar__links -vbuttons">${t("pages.skills")}</a>
+                <a href="/projects" class="navbar__links -vbuttons">${t("pages.projects")}</a>
+                <a href="/contact" class="navbar__links -vbuttons">${t("pages.contact")}</a>
             </div>
             <div class="lang container">
                 <button class="lang-switch btn btn--secondary btn--icon">

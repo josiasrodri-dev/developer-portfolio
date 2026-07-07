@@ -1,6 +1,6 @@
-@import url(./components.css);
 @import url(./layouts.css);
 @import url(./variables.css);
+@import url(./components.css);
 
 *{
     margin: 0;

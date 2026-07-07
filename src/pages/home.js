@@ -9,9 +9,12 @@ export function Home() {
             <img src="./assets/images/josias-rodriguez.webp" alt="dev-profile-img">
         </div>
         <div class="hero__content stack">
-            <h1 class="hero__title">Josías Rodríguez</h1>
-            <h2 class="hero__subtitle">Fullstack Developer</h2>
-            <p class="section__hero">${t("home.desc")}</p>
+            <div class="base-info stack">
+                <h1 class="hero__title">Josías Rodríguez</h1>
+                <h2 class="hero__subtitle">Fullstack Developer</h2>
+                <p class="section__hero">${t("home.desc")}</p>
+            </div>
+            
             <div class="hero__cta">
                 <a href="/projects" class="btn btn--primary">${t("home.project")}</a>
                 <a href="/contact" class="btn btn--secondary">${t("home.contact")}</a>
