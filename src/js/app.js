@@ -1,3 +1,4 @@
+import { initSidebar } from "./utils.js"
 import { router } from "./router.js";
 import { navigate } from "./navigate.js";
 import { setLanguage } from "./i18n.js";

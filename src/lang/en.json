@@ -1,6 +1,23 @@
 {
+    "lang": {
+        "name": "EN",
+        "icon": "<i class='icon usa-icon'></i>"
+    },
     "home": {
-        "title": "You are in home"
+        "title": "Home",
+        "desc": "I build real-utility applicatios with backend structure and clean interface",
+        "project": "View Projects",
+        "contact": "Contact Me",
+        "mobile":{
+            "project-title": "Projects",
+            "project-desc": "Explore my work.",
+            "skill-title": "Skills",
+            "skill-desc": "Technologies and tools.",
+            "contact-title": "Contact Me",
+            "contact-desc": "Let's talk about your idea."
+
+        }
+
     },
     "about": {
         "title": "You are in about me"

@@ -1,0 +1,20 @@
+@import url(./components.css);
+@import url(./layouts.css);
+@import url(./variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+}
+
+a{
+    text-decoration: none;
+}

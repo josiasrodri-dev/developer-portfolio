@@ -1,6 +1,22 @@
 {
+    "lang": {
+        "name": "ES",
+        "icon": "<i class='icon mex-icon'></i>"
+    },
     "home": {
-        "title": "Estás en home"
+        "title": "Home",
+        "desc": "Contruyo aplicaciones útiles para el día a día con lógica backend solida e intefaces limpios.",
+        "project": "Ver Proyectos",
+        "contact": "Contácteme",
+        "mobile":{
+            "project-title": "Proyectos",
+            "project-desc": "Explore mi trabajo.",
+            "skill-title": "Habilidades",
+            "skill-desc": "Tecnologías y herramientas.",
+            "contact-title": "Contácteme",
+            "contact-desc": "Hablemos de sus ideas."
+
+        }
     },
     "about": {
         "title": "Estás en acerca de mi"

@@ -1,0 +1,57 @@
+:root{
+    --bg: #0F1115;
+    --surface: #161A22;
+    --surface-2: #1E2430;
+
+    --primary: #0D9276;
+    --accent: #F2D338;
+
+    --text: #F9F9F9;
+    --text-muted: rgba(249,249,249,0.7);
+
+    --border: rgba(255,255,255,0.06);
+}
+
+:root {
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-8: 32px;
+    --space-12: 48px;
+    --space-16: 64px;
+}
+
+:root {
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-full: 999px;
+}
+
+:root {
+    --shadow-sm: 0 8px 24px rgba(0,0,0,0.35);
+    --shadow-hover: 0 10px 30px rgba(13,146,118,0.18);
+    --shadow-lg: 0 20px 60px rgba(0,0,0,0.6);
+}
+
+:root {
+    --ff-body: "Inter", sans-serif;
+    --ff-heading: "Century Gothic", "Inter", sans-serif;
+    --ff-mono: Consolas, "Courier New", monospace;
+}
+
+:root {
+    --fs-body: 16px;
+    --fs-nav: 24px;
+    --fs-button: 24px;
+    --fs-subtitle: clamp(1.5rem, 1rem + 1vw, 2rem);
+    --fs-title: clamp(2.5rem, 1.8rem + 4vw, 5rem);
+    --fs-section-title: clamp(2rem, 1.5rem + 2vw, 3rem);
+}
+
+:root {
+    --buttons-anim: ease-in-out .3s;
+    --sidebar-anim: ease-out .5s;
+}

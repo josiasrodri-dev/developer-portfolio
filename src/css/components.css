@@ -1,0 +1,104 @@
+.btn{
+    padding: var(--space-4) var(--space-8);
+    color: var(--text);
+    display: inline-flex;
+    border-radius: var(--radius-sm);
+    transition: var(--buttons-anim);
+    transform: scale(1) translateY(0);
+    box-shadow: var(--shadow-lg);
+    font-size: var(--fs-button);
+    border: none;
+}
+.btn--primary{
+    background-color: var(--primary);
+}
+.btn--secondary{
+    background-color: var(--surface-2);
+}
+.btn--icon{
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-6);
+}
+
+.btn:hover{
+    transform: scale(1.033) translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+
+.card{
+    background-color: var(--surface-1);
+    border: var(--space-1) var(--border) solid;
+    border-radius: var(--radius-lg);
+    width: 100%;
+    color: var(--text);
+    text-align: center;
+    padding: var(--space-16);
+    color: var(--accent);
+    gap: var(--space-6);
+    transition: var(--buttons-anim);
+    transform: scale(1) translateY(0);
+}
+.card:hover{
+    transform: scale(1.033) translateY(-3px);
+    box-shadow: var(--shadow-hover);
+}
+.card__header{
+    font-size: var(--fs-title);
+    font-family: var(--ff-heading);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-16);
+}
+.card__body{
+    font-size: var(--fs-section-title);
+    font-family: var(--ff-body);
+    font-weight: 300;
+}
+
+#sidebar_btn{
+    border: none;
+    font-size: var(--fs-title);
+    color: var(--text);
+    display: flex;
+    padding: 0;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.nav-link--active
+
+.project-card
+.project-card__title
+.project-card__tech
+.project-card__link{
+
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+
+    background-color: currentColor;
+
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
+.usa-icon{
+    background-image: url("../../assets/icons/usa-flat.svg");
+    mask-image: url("../../assets/icons/usa-flat.svg");
+    -webkit-mask-image: url("../../assets/icons/usa-flat.svg");
+}
+
+.mex-icon{
+    background-image: url("../../assets/icons/mex-flat.svg");
+    mask-image: url("../../assets/icons/mex-flat.svg");
+    -webkit-mask-image: url("../../assets/icons/mex-flat.svg");
+}
