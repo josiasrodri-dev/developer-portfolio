@@ -1,5 +1,5 @@
 .btn{
-    padding: var(--space-4) var(--space-8);
+    padding: var(--space-2) var(--space-4);
     color: var(--text);
     display: inline-flex;
     border-radius: var(--radius-sm);
@@ -27,14 +27,14 @@
 
 .card{
     background-color: var(--surface-1);
-    border: var(--space-1) var(--border) solid;
+    border: 3px var(--border) solid;
     border-radius: var(--radius-lg);
     width: 100%;
     color: var(--text);
     text-align: center;
-    padding: var(--space-16);
+    padding: var(--space-8);
     color: var(--accent);
-    gap: var(--space-6);
+    gap: var(--space-4);
     transition: var(--buttons-anim);
     transform: scale(1) translateY(0);
 }
@@ -43,15 +43,15 @@
     box-shadow: var(--shadow-hover);
 }
 .card__header{
-    font-size: var(--fs-title);
+    font-size: var(--fs-section-title);
     font-family: var(--ff-heading);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: var(--space-16);
+    gap: var(--space-6);
 }
 .card__body{
-    font-size: var(--fs-section-title);
+    font-size: var(--fs-subtitle);
     font-family: var(--ff-body);
     font-weight: 300;
 }
@@ -68,12 +68,13 @@
 
 .nav-link--active
 
+/*
 .project-card
 .project-card__title
 .project-card__tech
 .project-card__link{
 
-}
+}*/
 
 .icon{
     width: 32px;
@@ -101,4 +102,10 @@
     background-image: url("../../assets/icons/mex-flat.svg");
     mask-image: url("../../assets/icons/mex-flat.svg");
     -webkit-mask-image: url("../../assets/icons/mex-flat.svg");
+}
+
+@media (min-width: 768px) {
+    .mobile{
+        display: none;
+    }
 }
