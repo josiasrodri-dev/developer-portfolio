@@ -1,13 +1,13 @@
 import { Home } from "../pages/home.js";
 import { Contact } from "../pages/contact.js";
-import { About } from "../pages/about.js";
+import { Skills } from "../pages/skills.js";
 import { Projects } from "../pages/projects.js";
 
 import { initUtilities } from "./ui.js";
 
 const routes = {
   "/": Home,
-  "/about": About,
+  "/skills": Skills,
   "/contact": Contact,
   "/projects": Projects
 }

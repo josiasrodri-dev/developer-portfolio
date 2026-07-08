@@ -6,7 +6,7 @@ export default function Header(){
             <button class="mobile" id="sidebar_btn"> <i class="fa-solid fa-bars"></i> </button>
             <div class="navbar -vnav">
                 <a href="/" class="navbar__links -vbuttons">${t("pages.home")}</a>
-                <a href="/about" class="navbar__links -vbuttons">${t("pages.skills")}</a>
+                <a href="/skills" class="navbar__links -vbuttons">${t("pages.skills")}</a>
                 <a href="/projects" class="navbar__links -vbuttons">${t("pages.projects")}</a>
                 <a href="/contact" class="navbar__links -vbuttons">${t("pages.contact")}</a>
             </div>

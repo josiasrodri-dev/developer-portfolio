@@ -37,8 +37,9 @@
 */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: var(--space-4);
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: var(--space-1);
+    padding: var(--space-6) 0;
 }
 .wrap{
     display: flex;

@@ -1,15 +1,17 @@
 import MainLayout from "../layouts/mainLayout.js";
 import { t } from "../js/i18n.js"
 
-export function About() {
+export function Skills() {
   return MainLayout({
     content: `
         <div class="container stack skills-title">
             <h1>${t("skills.title")}</h1>
             <p class="desc">${t("skills.desc")}</p>
         </div>
-        <div class="skills">
-            <div class="techno-card grid">
+
+        <div class="grid">
+            <div class="skills">
+            <div class="techno-card">
                 <div class="techno_card__title">
                     <h1>Frontend</h1>
                 </div>
@@ -52,7 +54,7 @@ export function About() {
         </div>
 
         <div class="skills">
-          <div class="techno-card grid">
+          <div class="techno-card ">
               <div class="techno_card__title">
                   <h1>${t("skills.app-dev")}</h1>
               </div>
@@ -87,7 +89,7 @@ export function About() {
       </div>
 
       <div class="skills">
-          <div class="techno-card grid">
+          <div class="techno-card">
               <div class="techno_card__title">
                   <h1>${t("skills.database")}</h1>
               </div>
@@ -120,7 +122,7 @@ export function About() {
       </div>
 
       <div class="skills">
-          <div class="techno-card grid">
+          <div class="techno-card">
               <div class="techno_card__title">
                   <h1>${t("skills.tools")}</h1>
               </div>
@@ -135,7 +137,7 @@ export function About() {
       </div>
 
       <div class="skills -creative">
-        <div class="techno-card grid">
+        <div class="techno-card">
             <div class="techno_card__title">
                 <h1>${t("skills.creative")}</h1>
             </div>
@@ -156,5 +158,8 @@ export function About() {
             </div>
         </div>
     </div>
+        </div>
+
+        
         `});
 }

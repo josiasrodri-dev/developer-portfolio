@@ -67,8 +67,8 @@
 }
 
 .skills-title{
-text-align: center;
-padding: var(--space-2) var(--space-8);
+    text-align: center;
+    padding: var(--space-2) var(--space-8);
 }
 
 .techno-card{
@@ -77,6 +77,9 @@ padding: var(--space-2) var(--space-8);
     margin: var(--space-4);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-hover);
+}
+.techno_card__title{
+    padding: var(--space-2);
 }
 .techno-card__skill{
     background-color: var(--primary);
@@ -229,8 +232,12 @@ padding: var(--space-2) var(--space-8);
     .mobile, #sidebar_btn{
         display: none;
     }
-    .icon{
-        width: 32px;
-        height: 32px;
+    .techno-card__skill{
+        font-size: 14px;
+        padding: var(--space-2) var(--space-8);
     }
+
+}
+@media (min-width: 1024){
+
 }
