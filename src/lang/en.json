@@ -25,8 +25,22 @@
         }
 
     },
-    "about": {
-        "title": "You are in about me"
+    "skills": {
+        "title": "Skills",
+        "desc": "Technologies, tools and concepts I use to build reliable software.",
+        "concepts": "Integrated concepts",
+        "frontend": {
+            "responsive": "Responsive design",
+            "ui": "UI/UX design"
+        },
+        "app-dev" : "Application Development",
+        "database": "DataBase",
+        "db-concepts":{
+            "design": "Database design",
+            "normalization": "Normalization"
+        },
+        "tools": "Dev Tools",
+        "creative": "Creativity"
     },
     "contact": {
         "title": "You are in my contacts"

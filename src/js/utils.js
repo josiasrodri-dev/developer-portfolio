@@ -26,28 +26,6 @@ export function initSidebar(){
         }
     });
 
-    let startX = 0;
-    let isDragging = false;
-
-    sidebar.addEventListener("pointerdown", (e) => {
-        startX = e.startX;
-        isDragging = true
-
-        sidebar.setPointerCapture(e.pointerId);
-    });
-
-    sidebar.addEventListener("pointerup", (e) => {
-        if(isDragging) return;
-
-        const diff = e.clientX -startX;
-        const SWIPE_THREHOLD = 80;
-
-        if(diff < -SWIPE_THREHOLD){
-            sidebar.classList.remove("opened")
-        }
-
-        isDragging = false
-    })
 }
 
 export function setYear(){

@@ -65,19 +65,84 @@
     width: fit-content;
     background-color: transparent;
 }
+
+.skills-title{
+text-align: center;
+padding: var(--space-2) var(--space-8);
+}
+
+.techno-card{
+    background-color: var(--surface-2);
+    padding: var(--space-6);
+    margin: var(--space-4);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-hover);
+}
+.techno-card__skill{
+    background-color: var(--primary);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-4);
+    font-size: 12px;
+    font-weight: 500;
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-lg);
+    border: var(--surface-2) 2px solid;
+    box-shadow: var(--shadow-hover);
+    transition: var(--buttons-anim);
+}
+.techno-card__skill:hover{
+    transform: scale(1.04) translateY(-3px);
+}
+.integrated-concepts > h3{
+    margin: var(--space-2) 0;
+}
+
+.-creative .techno-card{
+    background-color: #fafafa;
+    border: #2d2d2d 4px solid;
+    color: #2d2d2d;
+    box-shadow: #fafafa52 1px 1px 20px;
+
+}
+.-creative .techno-card__skill{
+    font-weight: 700;
+    padding: 4px 16px;
+}
+.-illustrator{
+    background-color: #2D0402;
+    color: #FF9A00;
+    border: #FF9A00 3px solid; 
+}
+.-photoshop{
+    background-color: #001E36;
+    color: #30A8FF;
+    border: #30A8FF 3px solid;
+}
+.-animate{
+    background-color: #00005B;
+    color: #9999FF;
+    border: #9999FF 3px solid;
+}
+.-after-efects{
+    background-color: #0F0024;
+    color: #D3A4FF;
+    border: #D3A4FF 3px solid;
+}
+
+
 /*
-
-
 .project-card
 .project-card__title
 .project-card__tech
 .project-card__link{
-
 }*/
 
 .icon{
-    width: 20px;
-    height: 20px;
+    width: 1em;
+    height: 1em;
     display: inline-block;
 
     background-color: currentColor;
@@ -101,6 +166,63 @@
     background-image: url("../../assets/icons/mex-flat.svg");
     mask-image: url("../../assets/icons/mex-flat.svg");
     -webkit-mask-image: url("../../assets/icons/mex-flat.svg");
+}
+
+.html-icon{
+    mask-image: url("../../assets/icons/html.svg");
+    -webkit-mask-image: url("../../assets/icons/html.svg");
+}
+.css-icon{
+    mask-image: url("../../assets/icons/css.svg");
+    -webkit-mask-image: url("../../assets/icons/css.svg");
+}
+.js-icon{
+    mask-image: url("../../assets/icons/js.svg");
+    -webkit-mask-image: url("../../assets/icons/js.svg");
+}
+.boostrap-icon{
+    mask-image: url("../../assets/icons/boostrap.svg");
+    -webkit-mask-image: url("../../assets/icons/boostrap.svg");
+}
+.charts-icon{
+    mask-image: url("../../assets/icons/charts.svg");
+    -webkit-mask-image: url("../../assets/icons/charts.svg");
+}
+.php-icon{
+    mask-image: url("../../assets/icons/php.svg");
+    -webkit-mask-image: url("../../assets/icons/php.svg");
+}
+.laravel-icon{
+    mask-image: url("../../assets/icons/laravel.svg");
+    -webkit-mask-image: url("../../assets/icons/laravel.svg");
+}
+.csharp-icon{
+    mask-image: url("../../assets/icons/csharp.svg");
+    -webkit-mask-image: url("../../assets/icons/csharp.svg");
+}
+.windowsforms-icon{
+    mask-image: url("../../assets/icons/windowsforms.svg");
+    -webkit-mask-image: url("../../assets/icons/windowsforms.svg");
+}
+.net-icon{
+    mask-image: url("../../assets/icons/net.svg");
+    -webkit-mask-image: url("../../assets/icons/net.svg");
+}
+.java-icon{
+    mask-image: url("../../assets/icons/java.svg");
+    -webkit-mask-image: url("../../assets/icons/java.svg");
+}
+.mysql-icon{
+    mask-image: url("../../assets/icons/mysql.svg");
+    -webkit-mask-image: url("../../assets/icons/mysql.svg");
+}
+.sqlite-icon{
+    mask-image: url("../../assets/icons/sqlite.svg");
+    -webkit-mask-image: url("../../assets/icons/sqlite.svg");
+}
+.git-icon{
+    mask-image: url("../../assets/icons/git.svg");
+    -webkit-mask-image: url("../../assets/icons/git.svg");
 }
 
 @media (min-width: 768px) {

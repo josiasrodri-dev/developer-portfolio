@@ -24,8 +24,22 @@
 
         }
     },
-    "about": {
-        "title": "Estás en acerca de mi"
+    "skills": {
+        "title": "Habilidades",
+        "desc": "Tecnologías, herramientas y conceptos que utilizo para desarrollar software confiable.",
+        "concepts": "Conceptos Integrados",
+        "frontend": {
+            "responsive": "Diseño Responsive",
+            "ui": "Diseño de UI/UX"
+        },
+        "app-dev" : "Desarrollo de aplicaciones",
+        "database": "Base de datos",
+        "db-concepts":{
+            "design": "Diseño de base de datos",
+            "normalization": "Normalización"
+        },
+        "tools": "Herramientas",
+        "creative": "Creatividad"
     },
     "contact": {
         "title": "Estás en mis contactos"

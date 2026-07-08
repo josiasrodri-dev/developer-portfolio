@@ -34,13 +34,18 @@
 .section--projects
 .section--about
 .section--contact
-
-.grid
-.grid--2
-.grid--3{
-
-}
 */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-4);
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+}
+
 header{
     padding: var(--space-4);
 }
