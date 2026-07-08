@@ -209,5 +209,8 @@ footer{
     .hero__image > img{
         max-width: 30vw;
     }
+    .grid{
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    }
 
 }

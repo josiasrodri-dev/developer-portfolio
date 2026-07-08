@@ -238,6 +238,15 @@
     }
 
 }
-@media (min-width: 1024){
+@media (min-width: 1024px){
+    .techno-card__skill{
+        font-size: 18px;
+    }
+    .integrated-concepts > h3{
+        padding: var(--space-4) 0;
+    }
+    .-creative .techno-card__skill{
+        font-weight: 700;
+    }
 
 }
