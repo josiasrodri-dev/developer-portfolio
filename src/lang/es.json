@@ -45,6 +45,25 @@
         "title": "Estás en mis contactos"
     },
     "project": {
-        "title": "Estás en mis proyectos"
+        "portfolio":{
+            "visibility": "Código abierto",
+            "title": "Portafolio de desarrollador",
+            "desc": "Diseñado para presentar proyectos y conocimiento técnico en una experiencia limpia y accesible."
+        },
+        "mildelicias": {
+            "visibility": "Código abierto",
+            "title": "Mil Delicias",
+            "desc": "Sistema de gestión para cafeterías diseñado para simplificar las operaciones diarias mediante menús digitales, gestión de pedidos y administración de mesas."
+        },
+        "agro-invoicer":{
+            "visibility": "Privado",
+            "title": "Facturador agropecuaria",
+            "desc": "Aplicación de escritorio de facturación desarrollada para negocios agropecuarios, gestionando productos, ventas, clientes y registros de facturación."
+        },
+        "floralia":{
+            "visibility": "Privado",
+            "title": "Floralia",
+            "desc": "Plataforma de gestión agrícola enfocada en organizar cultivos, registrar actividades agrícolas y simplificar la administración de la producción."
+        }
     }
 }

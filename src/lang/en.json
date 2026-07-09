@@ -46,6 +46,25 @@
         "title": "You are in my contacts"
     },
     "project": {
-        "title": "You are in my projects"
+        "portfolio":{
+            "visibility": "Open Source",
+            "title": "Developer Portfolio",
+            "desc": "Designed to present projects and technical expertise in a clean, accessible, and user-friendly experience."
+        },
+        "mildelicias": {
+            "visibility": "Open Source",
+            "title": "Mil Delicias",
+            "desc": "Cafeteria management system designed to simplify daily operations through digital menus, order management, and table administration."
+        },
+        "agro-invoicer":{
+            "visibility": "Private",
+            "title": "Agro Invoicer",
+            "desc": "Desktop invoicing application developed for agricultural businesses, managing products, sales, customers, and billing records."
+        },
+        "floralia":{
+            "visibility": "Private",
+            "title": "Floralia",
+            "desc": "Agricultural management platform focused on organizing crops, tracking farming activities, and simplifying production management."
+        }
     }
 }
