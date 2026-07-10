@@ -30,11 +30,6 @@
     margin: var(--space-4) var(--space-4);
     border-radius: var(--radius-md);
 }
-/*
-.section--projects
-.section--about
-.section--contact
-*/
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));

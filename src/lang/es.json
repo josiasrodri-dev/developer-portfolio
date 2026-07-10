@@ -41,9 +41,6 @@
         "tools": "Herramientas",
         "creative": "Creatividad"
     },
-    "contact": {
-        "title": "Estás en mis contactos"
-    },
     "project": {
         "portfolio":{
             "visibility": "Código abierto",
@@ -64,6 +61,26 @@
             "visibility": "Privado",
             "title": "Floralia",
             "desc": "Plataforma de gestión agrícola enfocada en organizar cultivos, registrar actividades agrícolas y simplificar la administración de la producción."
+        }
+    },
+    "contact": {
+        "avialable": "Disponible",
+        "title": "Hablemos",
+        "desc": "Actualmente estoy abierto a oportunidades como desarrollador de software junior. No dudes en escribirme por correo electrónico o conectar conmigo en LinkedIn.",
+        "email": "Contactar",
+        "linkedin": "Ver Perfil",
+        "github": "Ver Repositorios",
+        "oportunities": {
+            "title": "Abierto a oportunidades",
+            "desc": "Actualmente estoy buscando oportunidades como desarrollador de software junior donde pueda seguir creciendo profesionalmente y aportar a proyectos con impacto. Mis principales intereses son el desarrollo backend y full stack, aunque también estoy abierto a roles frontend que me permitan seguir aprendiendo y colaborando.",
+            "list-title": "Areas de interés",
+            "list": [
+                "Desarrollo Backend",
+                "Desarrollo Full Stack",
+                "Desarrollo Web",
+                "Desarrollo de Aplicaciones"
+            ]
+
         }
     }
 }
