@@ -12,7 +12,5 @@ document.addEventListener("click", (e) => {
     navigate(link.getAttribute("href"))
 })
 
-setLanguage("en")
-
 window.addEventListener("load", router);
 window.addEventListener("popstate", router);

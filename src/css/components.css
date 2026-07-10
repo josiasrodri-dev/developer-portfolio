@@ -98,6 +98,7 @@
 }
 .techno-card__skill:hover{
     transform: scale(1.04) translateY(-3px);
+    cursor: pointer;
 }
 .integrated-concepts > h3{
     margin: var(--space-2) 0;

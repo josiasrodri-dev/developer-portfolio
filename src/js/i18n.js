@@ -6,10 +6,13 @@ const languages = {
     es
 };
 
-let currentLanguage = "es";
+const defaultLanguage = "en"
+
+export let currentLanguage = localStorage.getItem("lang") || defaultLanguage;
 
 export function setLanguage(lang){
-    currentLanguage = lang
+    currentLanguage = lang;
+    localStorage.setItem("lang", lang)
 }
 
 export function t(path){

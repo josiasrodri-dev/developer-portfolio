@@ -58,6 +58,9 @@ header{
     right: 0;
     top: 64px;
 }
+.lang-switch:hover{
+    cursor: pointer;
+}
 
 .visible{
     display: flex;
