@@ -11,7 +11,7 @@
     },
     "home": {
         "title": "Home",
-        "desc": "I build real-utility applicatios with backend structure and clean interface",
+        "desc": "I build practical applications with solid backend logic and clean user interfaces.",
         "project": "View Projects",
         "contact": "Contact Me",
         "mobile":{
@@ -27,14 +27,14 @@
     },
     "skills": {
         "title": "Skills",
-        "desc": "Technologies, tools and concepts I use to build reliable software.",
+        "desc": "Technologies, tools and concepts I use to build reliable applications.",
         "concepts": "Integrated concepts",
         "frontend": {
             "responsive": "Responsive design",
             "ui": "UI/UX design"
         },
         "app-dev" : "Application Development",
-        "database": "DataBase",
+        "database": "Database",
         "db-concepts":{
             "design": "Database design",
             "normalization": "Normalization"
@@ -46,12 +46,12 @@
         "portfolio":{
             "visibility": "Open Source",
             "title": "Developer Portfolio",
-            "desc": "Designed to present projects and technical expertise in a clean, accessible, and user-friendly experience."
+            "desc": "Designed to showcase my projects and technical skills through a clean, accessible, and user-friendly interface."
         },
         "mildelicias": {
             "visibility": "Open Source",
             "title": "Mil Delicias",
-            "desc": "Cafeteria management system designed to simplify daily operations through digital menus, order management, and table administration."
+            "desc": "Cafeteria management system designed to simplify daily operations through digital menus, order management, and table management."
         },
         "agro-invoicer":{
             "visibility": "Private",
@@ -61,19 +61,19 @@
         "floralia":{
             "visibility": "Private",
             "title": "Floralia",
-            "desc": "Agricultural management platform focused on organizing crops, tracking farming activities, and simplifying production management."
+            "desc": "Agricultural management platform focused on organizing crops, tracking agricultural activities, and simplifying production management."
         }
     },
     "contact": {
         "avialable": "Available",
         "title": "Let's Connect",
-        "desc": "I'm currently open to junior software development opportunities. Feel free to reach out by email or connect with me on LinkedIn.",
+        "desc": "I'm currently open to junior developer opportunities. Feel free to reach out by email or connect with me on LinkedIn.",
         "email": "Send email",
         "linkedin": "View Profile",
         "github": "View Repositories",
         "oportunities": {
             "title": "Open to Opportunities",
-            "desc": "I'm currently seeking junior software development opportunities where I can continue growing while contributing to meaningful projects. My primary interests are backend and full stack development, though I'm also open to frontend roles that foster learning and collaboration.",
+            "desc": "I'm currently seeking junior software development opportunities where I can contribute to meaningful projects while continuing to develop my skills. My primary interests are backend and full stack development, though I'm also open to frontend roles that foster learning and collaboration.",
             "list-title": "Areas of Interest",
             "list": [
                 "Backend Development",

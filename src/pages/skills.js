@@ -27,7 +27,7 @@ export function Skills() {
                   </div>
                   <div class="techno-card__skill">
                       <i class="icon js-icon"></i>
-                      <p>JS</p>
+                      <p>JavaScript</p>
                   </div>
                   <div class="techno-card__skill">
                       <i class="icon boostrap-icon"></i>

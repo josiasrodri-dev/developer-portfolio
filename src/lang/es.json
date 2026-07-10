@@ -11,7 +11,7 @@
     },
     "home": {
         "title": "Home",
-        "desc": "Contruyo aplicaciones útiles para el día a día con lógica backend solida e intefaces limpios.",
+        "desc": "Construyo aplicaciones prácticas con lógica backend sólida e interfaces limpias.",
         "project": "Ver Proyectos",
         "contact": "Contácteme",
         "mobile":{
@@ -66,14 +66,14 @@
     "contact": {
         "avialable": "Disponible",
         "title": "Hablemos",
-        "desc": "Actualmente estoy abierto a oportunidades como desarrollador de software junior. No dudes en escribirme por correo electrónico o conectar conmigo en LinkedIn.",
+        "desc": "Actualmente estoy abierto a oportunidades como desarrollador de software junior. Puedes contactarme por correo electrónico o conectar conmigo en LinkedIn.",
         "email": "Contactar",
         "linkedin": "Ver Perfil",
         "github": "Ver Repositorios",
         "oportunities": {
             "title": "Abierto a oportunidades",
             "desc": "Actualmente estoy buscando oportunidades como desarrollador de software junior donde pueda seguir creciendo profesionalmente y aportar a proyectos con impacto. Mis principales intereses son el desarrollo backend y full stack, aunque también estoy abierto a roles frontend que me permitan seguir aprendiendo y colaborando.",
-            "list-title": "Areas de interés",
+            "list-title": "Áreas de interés",
             "list": [
                 "Desarrollo Backend",
                 "Desarrollo Full Stack",
