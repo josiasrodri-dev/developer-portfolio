@@ -3,6 +3,10 @@
         "name": "EN",
         "icon": "<i class='icon usa-icon'></i>"
     },
+    "404": {
+        "not-found": "Page Not Found",
+        "return": "Back to Home"
+    },
     "pages":{
         "home": "Home",
         "skills": "Skills",

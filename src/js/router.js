@@ -2,6 +2,7 @@ import { Home } from "../pages/home.js";
 import { Contact } from "../pages/contact.js";
 import { Skills } from "../pages/skills.js";
 import { Projects } from "../pages/projects.js";
+import { notFound } from "../pages/404.js";
 
 import { initUtilities } from "./ui.js";
 
@@ -19,7 +20,7 @@ export function router() {
 
   const page = routes[path]
   
-  app.innerHTML = page ? page() : "<h1>404</h1>"
+  app.innerHTML = page ? page() : notFound()
 
   initUtilities()
 }

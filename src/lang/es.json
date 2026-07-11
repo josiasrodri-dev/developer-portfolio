@@ -9,6 +9,10 @@
         "projects": "Proyectos",
         "contact": "Contacto"
     },
+    "404": {
+        "not-found": "Página No Encontrada",
+        "return": "Volver a Home"
+    },
     "home": {
         "title": "Home",
         "desc": "Construyo aplicaciones prácticas con lógica backend sólida e interfaces limpias.",

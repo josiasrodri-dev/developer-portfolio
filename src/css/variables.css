@@ -45,7 +45,7 @@
 :root {
     --fs-body: 16px;
     --fs-nav: clamp(16px, 4vw, 24px);
-    --fs-button: clamp(16px, 4vw, 24px);
+    --fs-button: clamp(16px, 4vw, 20px);
     --fs-subtitle: clamp(18px, 3vw, 32px);
     --fs-title: clamp(30px, 8vw, 48px);
     --fs-section-title: clamp(20px, 1vw, 32px);

@@ -156,6 +156,16 @@ footer{
     color: var(--text);
 }
 
+.not-found{
+    background-color: var(--surface-2);
+    border: var(--border) 3px solid;
+    border-radius: var(--radius-md);
+    margin: var(--space-6);
+    padding: var(--space-4);
+}
+.not-found > a{
+    margin: var(--space-4) 0;
+}
 @media (min-width: 768px) {
     .navbar{
         position: relative;
