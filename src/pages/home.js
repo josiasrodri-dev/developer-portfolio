@@ -25,7 +25,7 @@ export function Home() {
                 <h1 class="card__header"><i class="fa-solid fa-rocket"></i> ${t("home.mobile.project-title")}</h1>
                 <h2 class="card__body">${t("home.mobile.project-desc")}</h2>
             </a>
-            <a href="/about" class="card stack">
+            <a href="/skills" class="card stack">
                 <h1 class="card__header"><i class="fa-solid fa-code"></i> ${t("home.mobile.skill-title")}</h1>
                 <h2 class="card__body">${t("home.mobile.skill-desc")}</h2>
             </a>
