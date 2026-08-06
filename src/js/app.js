@@ -6,7 +6,9 @@ document.addEventListener("click", (e) => {
     const link = e.target.closest("a");
 
     if(!link) return;
-    if (!link.getAttribute("href")?.startsWith("/")) return;
+    if (link.hasAttribute("download")) return;
+    if (link.target === "_blank") return;
+
 
     e.preventDefault();
     navigate(link.getAttribute("href"))

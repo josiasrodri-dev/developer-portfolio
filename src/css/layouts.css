@@ -71,9 +71,6 @@ header{
     cursor: pointer;
 }
 
-.visible{
-    display: flex;
-}
 .navbar{
     display: flex;
     position: fixed;
@@ -150,8 +147,12 @@ header{
     align-items: start;
     gap: var(--space-1);
     z-index: 1;
+    display: none;
 }
-
+.cv-options.visible,
+.visible{
+    display: flex;
+}
 .mobile{
     width: 100%;
     gap: var(--space-4);

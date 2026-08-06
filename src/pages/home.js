@@ -22,14 +22,12 @@ export function Home() {
             </div>
                 
                 <div class="container-lg cv-container">
-                <button class="btn btn-lg btn--primary">${t("home.cv-btn")}</button> 
+                <button class="btn btn-lg btn--primary" id="download-btn">${t("home.cv-btn")}</button> 
                 <div class="cv-options stack">
-                    <h6>Creative</h6>
-                    <a href="" class="btn btn-lg btn--ghost">english_cv.pdf</a>
-                    <a href="" class="btn btn-lg btn--ghost">spanish_cv.pdf</a>
-                    <h6>ATS</h6>
-                    <a href="" class="btn btn-lg btn--ghost">english_cv.pdf</a>
-                    <a href="" class="btn btn-lg btn--ghost">spanish_cv.pdf</a>
+                    <a href="/assets/documents/cv/josias_rodriguez_cv_ats_en.pdf" download="Josias_Rodriguez_ATS_CV_EN.pdf" class="btn btn-lg btn--ghost">ATS CV - English</a>
+                    <a href="/assets/documents/cv/josias_rodriguez_cv_ats_es.pdf" download="Josias_Rodriguez_ATS_CV_ES.pdf" class="btn btn-lg btn--ghost">ATS CV - Español</a>
+                    <a href="/assets/documents/cv/josias_rodriguez_cv_creative_en.pdf" download="Josias_Rodriguez_Creative_CV_EN.pdf" class="btn btn-lg btn--ghost">Creative CV - English</a>
+                    <a href="/assets/documents/cv/josias_rodriguez_cv_creativo_es.pdf" download="Josias_Rodriguez_Creative_CV_ES.pdf" class="btn btn-lg btn--ghost">CV Creativo - Español</a>
                 </div>
             </div>
             </div>

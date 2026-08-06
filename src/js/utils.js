@@ -56,3 +56,13 @@ export function initLangSelector(){
 
     
 }
+
+export function toggleDownloadModal(){
+    let btn = document.getElementById("download-btn");
+    let modal = document.querySelector(".cv-options");
+
+    btn.addEventListener("click", () => {
+        modal.classList.toggle("visible");
+        console.log(modal)
+    });
+}
