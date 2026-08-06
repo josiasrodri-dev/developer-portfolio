@@ -29,6 +29,7 @@ The website includes project showcases, skills overview, and contact information
 - Designed a responsive interface following a mobile-first approach.
 - Implemented a custom 404 page and navigation state management.
 - Modular JavaScript architecture using ES modules.
+- Added downloadable ATS and creative CV versions in English and Spanish.
 
 ## Tech Stack
 
@@ -59,6 +60,8 @@ The project follows a modular structure separating styles, logic, localization f
 
 ```text
 /assets
+    /documents
+        /cv
     /icons
     /images
 /src
