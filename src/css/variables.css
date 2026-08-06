@@ -8,6 +8,7 @@
 
     --text: #F9F9F9;
     --text-muted: rgba(249,249,249,0.7);
+    --light-bg-text: #181818;
 
     --border: rgba(255,255,255,0.06);
 }

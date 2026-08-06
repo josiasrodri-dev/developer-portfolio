@@ -15,10 +15,25 @@ export function Home() {
                 <p class="section__hero">${t("home.desc")}</p>
             </div>
             
-            <div class="hero__cta">
-                <a href="/projects" class="btn btn--primary">${t("home.project")}</a>
+            <div class="hero__cta stack">
+            <div class="cluster">
+                <a href="/projects" class="btn btn--accent">${t("home.project")}</a>
                 <a href="/contact" class="btn btn--secondary">${t("home.contact")}</a>
             </div>
+                
+                <div class="container-lg cv-container">
+                <button class="btn btn-lg btn--primary">${t("home.cv-btn")}</button> 
+                <div class="cv-options stack">
+                    <h6>Creative</h6>
+                    <a href="" class="btn btn-lg btn--ghost">english_cv.pdf</a>
+                    <a href="" class="btn btn-lg btn--ghost">spanish_cv.pdf</a>
+                    <h6>ATS</h6>
+                    <a href="" class="btn btn-lg btn--ghost">english_cv.pdf</a>
+                    <a href="" class="btn btn-lg btn--ghost">spanish_cv.pdf</a>
+                </div>
+            </div>
+            </div>
+            
         </div>
         <div class="mobile stack">
             <a href="/projects" class="card stack">

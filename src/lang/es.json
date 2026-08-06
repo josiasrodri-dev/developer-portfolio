@@ -26,7 +26,8 @@
             "contact-title": "Contácteme",
             "contact-desc": "Hablemos de sus ideas."
 
-        }
+        },
+        "cv-btn": "Descargar CV"
     },
     "skills": {
         "title": "Habilidades",

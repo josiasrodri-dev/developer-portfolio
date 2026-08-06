@@ -25,9 +25,8 @@
             "skill-desc": "Technologies and tools.",
             "contact-title": "Contact Me",
             "contact-desc": "Let's talk about your idea."
-
-        }
-
+        },
+        "cv-btn": "Download CV"
     },
     "skills": {
         "title": "Skills",
