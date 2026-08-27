@@ -191,6 +191,9 @@
 
     animation: pulse 3s infinite;
 }
+.project-card__visibility > .in-progress, .in-progress::after{
+    background-color: #f6e353;
+}
 .project-card__title{
     align-items: start;
     gap: var(--space-2);

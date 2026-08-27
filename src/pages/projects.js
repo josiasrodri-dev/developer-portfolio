@@ -35,7 +35,7 @@ export function Projects() {
             </div>
 
             <div class="project-card__visibility split">
-              <i class="open-source"></i>
+              <i class="open-source in-progress"></i>
               <h3>${t("project.mildelicias.visibility")}</h3>
             </div>
             <div class="project-card__title stack">
@@ -51,6 +51,12 @@ export function Projects() {
                 <div class="tech-card mysql"><i class="icon mysql-icon"></i> MySql</div>
             </div>
             <div class="project-card__link">
+                <div class="private-links">
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <h3>${t("project.agro-invoicer.visibility")}</h3>
+                    </div>
+                </div>
                 <a href="https://github.com/josiasrodri-dev/mildelicias-legacy" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
         </div>
