@@ -25,7 +25,7 @@ export function Contact() {
 
               <p class="contact-card__subtitle">rodriguezjosias@gmail.com</p>
 
-              <a href="mailto:rodriguezjosias@gmail.com" class="btn contact-card__btn">${t("contact.email")}</a>
+              <a href="mailto:rodriguezjosias@gmail.com" target="_blank" class="btn contact-card__btn">${t("contact.email")}</a>
           </div>
           <div class="contact-card">
               <div class="contact-card__title split">
@@ -35,7 +35,7 @@ export function Contact() {
 
               <p class="contact-card__subtitle">/in/josiasrodri/</p>
 
-              <a href="https://www.linkedin.com/in/josiasrodri/" class="btn contact-card__btn">${t("contact.linkedin")}</a>
+              <a href="https://www.linkedin.com/in/josiasrodri/" target="_blank" class="btn contact-card__btn">${t("contact.linkedin")}</a>
           </div>
           <div class="contact-card">
               <div class="contact-card__title split">
@@ -45,7 +45,7 @@ export function Contact() {
 
               <p class="contact-card__subtitle">@josiasrodri-dev</p>
 
-              <a href="https://github.com/josiasrodri-dev" class="btn contact-card__btn">${t("contact.github")}</a>
+              <a href="https://github.com/josiasrodri-dev" target="_blank" class="btn contact-card__btn">${t("contact.github")}</a>
           </div>
       </div>
       <div class="oportunities stack">

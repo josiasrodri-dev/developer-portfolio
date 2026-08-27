@@ -25,7 +25,7 @@ export function Projects() {
                 <div class="tech-card js"><i class="icon js-icon"></i> JavaScript</div>
             </div>
             <div class="project-card__link">
-                <a href="https://github.com/josiasrodri-dev/developer-portfolio" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://github.com/josiasrodri-dev/developer-portfolio" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
         </div>
 
@@ -51,7 +51,7 @@ export function Projects() {
                 <div class="tech-card mysql"><i class="icon mysql-icon"></i> MySql</div>
             </div>
             <div class="project-card__link">
-                <a href="https://github.com/josiasrodri-dev/mildelicias-legacy" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://github.com/josiasrodri-dev/mildelicias-legacy" target="_blank" class="btn btn-github"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
         </div>
 
